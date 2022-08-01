@@ -1,0 +1,244 @@
+body {
+
+    /* background: url(../images/charity.jpg); */
+    /* background: #264653; */
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 50% 50%;
+    background-attachment: fixed;
+    overflow-x: hidden;
+    background-color: #14213d;
+    /* background: url(../images/question.jpg); */
+
+    /* background-repeat: no-repeat; */
+    /* background-size: 100% 100%; */
+    /* mask-position: auto; */
+    /* background-position: scroll; */
+    /* background-color: #e9f5db; */
+    /* background-attachment: fixed; */
+    color: #e9f5db;
+   
+    font-size: 100%;
+    margin-bottom: 2rem;
+    /* color: #f1faee; */
+    overflow-x: hidden;
+    /* line-height: 3.25rem; */
+    /* background-color: #edf6f9; */
+}
+
+#org-name:hover {
+    /* font-size: xx-small; */
+    transition: 2s;
+    /* background-color: #c89f9c; */
+    background-color: #a8dadc;
+}
+
+
+#donate-button {
+
+    text-align: center;
+}
+
+.dropdown-menu .dropdown-item:hover {
+    transition: 2s;
+    background-color: #fb5607
+}
+
+/* <!--donate background below--> */
+
+.my-image {
+    padding-top: 10.5rem;
+    padding-bottom: 16rem;
+    text-align: center;
+    background: #264653;
+    /* background: url(../images/background.jpg); */
+    background-attachment: scroll;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.my-image #above-donate-button {
+    font-family: garamond;
+    font-size: 3.25rem;
+    font-weight: bold;
+    line-height: 3.25rem;
+    margin-bottom: 2rem;
+    color: #f1faee;
+
+    /* background-color: pink; */
+}
+
+.my-image2 {
+    padding-top: 10.5rem;
+    padding-bottom: 16rem;
+    text-align: center;
+    /* background: url(../images/hands.jpg);
+     */
+    background: url(../images/team.jpg);
+    mask-position: auto;
+
+    /* background: url(../images/charity.jpg); */
+    /* background-repeat: no-repeat; */
+    /* background-position: center; */
+    /* background-size: 100%; */
+    overflow-x: hidden;
+    background-attachment: scroll;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+
+#team-title {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 3.25rem;
+    font-weight: bold;
+    line-height: 3.25rem;
+    margin-bottom: 2rem;
+    color: #f1faee;
+}
+
+
+
+.team-image-here2 {
+    /* float: right; */
+    border: black;
+    border: #f4a261;
+    width: 250px;
+    border-radius: 50%;
+}
+
+.team-image-here {
+    /* background: url(../images/Final_1.jpg); */
+    /* mask-position: auto; */
+    /* float: left; */
+    border: black;
+    border: #f4a261;
+    width: 250px;
+    border-radius: 50%;
+    /* margin-left: 25%; */
+    /* margin-right: 30%; */
+    /* padding-top: auto;
+    padding-left: auto;
+    padding-bottom: 16rem;
+    padding-right: auto;
+    text-align: center;
+    float: left;
+    background-size: cover;
+    vertical-align: middle; */
+
+
+}
+
+.container1 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex-basis: 200px;
+    align-content: center;
+    text-align: center;
+
+}
+
+.team-content-here {
+    /* float: right; */
+    width: 50%;
+    /* background-color: pink; */
+    margin: auto;
+}
+
+/* donation page css below ______________________________________
+
+#donation-div1 {
+    background-color: pink;
+    width: 30%;
+    float: left;
+}
+
+#donation-div2 {
+    background-color: red;
+    width: 30%;
+}
+
+
+#sidebar {
+    width: 200px;
+    border: 1px solid;
+    float: left;
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: center;
+    background-color: #264653;
+    color: #f1faee;
+}
+ */
+#left-container {
+    /* width: 10%; */
+    width: 50%;
+    /* background:url(../images/question3.jpg);
+background-size: 100% 100%;  */
+    /* background-color: #a5a58d; */
+    border-right: solid#3a5a40;
+    float: left;
+    height: 100%;
+    /* padding: 20%; */
+    font-family: garamond; 
+    font-weight: bold;
+}
+
+
+
+#left {
+    /* background: greenyellow; */
+    float: left;
+    padding: 8%;
+    width: 40%;
+    text-align: center;
+}
+
+#right {
+    position: relative;
+    /* border: 3px solid green; */
+    width: 50%;
+    padding: 8% 5%;
+    float: left;
+    /* background-color: gray; */
+    text-align: center;
+}
+
+#bottom-left {
+    /* margin-right: 50%; */
+    /* vertical-align: top; */
+    /* line-height: 1; */
+    /* position: absolute; */
+    /* display: ; */
+    padding: 1%;
+    text-align: center;
+    /* background-color: rgb(132, 0, 255); */
+    text-align: center;
+}
+
+#submit1:hover {
+    font-size: x-large;
+    background-color: #fb5607;
+    transition: 1s;
+}
+
+#submit2:hover {
+    font-size: x-large;
+    background-color: #fb5607;
+    transition: 1s;
+}
+
+#right-container {
+    width: 50%;
+    height: 50%;
+    /* border: solid red; */
+    float: right;
+    text-align: center;
+    line-height: 3;
+    padding-top: 5%;
+    padding-bottom: 10%;
+    font-family: garamond; 
+    font-weight: bold;
+    /* background-color: red; */
+}
